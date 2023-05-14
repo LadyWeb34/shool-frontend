@@ -1,0 +1,107 @@
+.main-section {
+    grid-column: 9 span;
+    padding: 48px 0;
+    width: 100%;
+    background-color: var(--color-section);
+    @include md{
+        grid-column: 12 span;
+        order: 2;
+    }
+    &__container {}
+
+    // .main-section__inner
+
+    &__inner {}
+
+    // .main-section__header
+
+    &__header {
+        margin-bottom: 42px;
+    }
+
+    // .main-section__header-title
+
+    &__header-title {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-size: 2.25rem;
+        font-weight: 600;
+    }
+
+    // .main-section__content
+
+    &__content {}
+
+    // .main-section__card
+
+    &__card {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    // .main-section__card-item
+
+    &__card-item {
+        &:not(:last-child){
+            margin-bottom: 1rem;
+        }
+    }
+
+    // .main-section__card-article
+
+    &__card-article {
+        border-radius: 7px;
+        background-color: var(--color-white);
+    }
+
+    // .main-section__card-header
+
+    &__card-header {
+        padding: 1.875rem;
+        border-bottom: 1px solid var(--color-separator);
+    }
+
+    // .main-section__card-name
+
+    &__card-name {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    // .main-section__card-bottom
+
+    &__card-bottom {
+        padding: 16px 30px;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    // .main-section__card-date
+
+    &__card-date {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    // .main-section__card-download
+
+    &__card-download {
+        font-size: 14px;
+        color: var(--color-primary);
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        &:hover{
+            text-decoration: underline;
+        }
+        img{
+            height: 14px;
+        }
+    }
+}

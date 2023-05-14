@@ -1,0 +1,151 @@
+.contact-section {
+    width: 100%;
+    padding: 3rem 0;
+    &__container {}
+
+    // .contact-section__inner
+
+    &__inner {}
+
+    // .contact-section__header
+
+    &__header {
+        margin-bottom: 42px;
+    }
+
+    // .contact-section__header-title
+
+    &__header-title {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-size: 2.25rem;
+        font-weight: 600;
+    }
+
+    // .contact-section__content
+
+    &__content {}
+
+    // .contact-section__description
+
+    &__description {
+        padding: 0;
+        margin: 0 0 24px 0;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    // .contact-section__list
+
+    &__list {
+        margin: 0 0 30px 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        gap: 24px;
+    }
+
+    // .contact-section__item
+
+    &__item {
+        grid-column: 6 span;
+        @include md{
+            grid-column: 12 span;
+        }
+    }
+
+    // .contact-section__card
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    // .contact-section__card-phone
+
+    &__card-phone {
+        font-size: 26px;
+        font-weight: 600;
+        color: var(--color-black);
+    }
+
+    // .contact-section__card-name
+
+    &__card-name {
+        margin: 8px 0 12px 0;
+        font-weight: 600;
+    }
+
+    // .contact-section__card-time
+
+    &__card-time {
+        font-size: 14px;
+    }
+
+    // .contact-section__services
+
+    &__services {
+        margin: 0;
+        padding: 0;
+    }
+
+    // .contact-section__services-title
+
+    &__services-title {
+        margin: 0 0 30px 0;
+        padding: 0;
+        font-size: 20px;
+        font-weight: 600;
+        display: inline-block;
+    }
+
+    // .contact-section__services-item
+
+    &__services-item {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        padding-bottom: 15px;
+        border-bottom: 1px solid var(--color-separator);
+        &:not(:last-child){
+            margin-bottom: 20px;
+        }
+    }
+
+    // .contact-section__services-left
+
+    &__services-left {}
+
+    // .contact-section__services-name
+
+    &__services-name {
+        margin: 0 0 8px 0;
+        padding: 0;
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--color-black);
+    }
+
+    // .contact-section__services-subtitle
+
+    &__services-subtitle {
+        display: inline-block;
+        max-width: 380px;
+        font-size: 14px;
+    }
+
+    // .contact-section__services-right
+
+    &__services-right {}
+
+    // .contact-section__services-phone
+
+    &__services-phone {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--color-black);
+    }
+}

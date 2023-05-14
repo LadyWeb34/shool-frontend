@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школа</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style/style.min.css">
+    <link rel="stylesheet" href="/assets/style/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="/assets/style/vendor/hystmodal.min.css">
+    <script defer src="/assets/javascript/vendor/hystmodal.min.js"></script>
+    <script defer src="/assets/javascript/application.js"></script>
+</head>
+<body class="application">
+    <div class="application__wrapper">
+        <header class="header-top">
+            <div class="header-top__container container">
+                <div class="header-top__inner header-top__inner--flex">
+                    <a href="/index.html" class="header-top__logo logo-brand"><span class="logo-brand__title">МОУ СШ №85</span></a>
+                    <nav class="header-top__navbar navbar" id="menu-navbar">
+                        <ul class="navbar__list navbar__list--flex">
+                            <li class="navbar__list-item"><a href="/index.html" class="navbar__list-link navbar__list-link--text-white">Главная</a></li>
+                            <li class="navbar__list-item"><a href="/about.html" class="navbar__list-link navbar__list-link--text-white">О школе</a></li>
+                            <li class="navbar__list-item"><a href="/teacher.html" class="navbar__list-link navbar__list-link--text-white">Педагогический состав</a></li>
+                            <li class="navbar__list-item"><a href="/documents.html" class="navbar__list-link navbar__list-link--text-white">Документы</a></li>
+                            <li class="navbar__list-item"><a href="/life.html" class="navbar__list-link navbar__list-link--text-white">Школьная жизнь</a></li>
+                            <li class="navbar__list-item"><a href="/contact.html" class="navbar__list-link navbar__list-link--text-white">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <button class="header-top__menu" id="menu-btn">
+                        <i class='bx bx-menu'></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- start main -->
+        <main class="main-content">
+            <div class="main-content__layout">
+                <div class="main-content__layout-template">
+                    <section class="hero-section hero-section--bg-section">
+                        <div class="hero-section__container container">
+                            <div class="hero-section__inner hero-section__inner--grid">
+                                <div class="hero-section__col-left">
+                                    <h1 class="hero-section__title hero-section__title--text-xl">Средняя школа №85 имени Героя Российской Федерации Г.П. Лячина</h1>
+                                    <p class="hero-section__subtitle">Муниципальное общеобразовательное учреждение Дзержинского района</p>
+                                </div>
+                                <div class="hero-section__col-right">
+                                    <div class="hero-section__banner">
+                                        <img src="/assets/images/hero_banner.webp" alt="Изображение школы" class="hero-section__banner-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="director-section">
+                        <div class="director-section__container container">
+                            <div class="director-section__inner director-section__inner--grid">
+                                <div class="director-section__banner"><img src="/assets/images/director.jpg" alt="" class="director-section__banner-photo"></div>
+                                <div class="director-section__detail">
+                                    <p class="director-section__text">
+                                        Приветствуем Вас на официальном сайте муниципального общеобразовательного учреждения средней общеобразовательной школы городского округа Восход Московской области.
+                                        <br>
+                                        Мы рады всем: нашим обучающимся, их родителям, выпускникам, коллегам по работе, а также тем, кто просто зашел к нам в гости. Искренне надеемся, уважаемые посетители, что на страницах этого сайта Вы найдете интересную и полезную информацию. Желаем Вам здоровья, успехов и благополучия!
+                                    </p>
+                                    <div class="director-section__info">
+                                        <h3 class="director-section__info-name">Розонова Наталья Юрьевна</h3>
+                                        <span class="director-section__info-position">директор школы</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="news-section">
+                        <div class="news-section__container container">
+                            <div class="news-section__inner">
+                                <header class="news-section__header news-section__header--flex">
+                                    <h2 class="news-section__title">Новости</h2>
+                                    <a href="life.html" class="news-section__more-link news-section--link">Все новости</a>
+                                </header>
+                                <div class="news-section__content">
+                                    <ul class="news-section__card-list list-card list-card--grid">
+                                        <li class="list-card__item list-card__item--col-3">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/hero_banner.webp" alt="" class="list-card__article-img">
+                                                <a href="#" class="list-card__article-link">
+                                                    <h4 class="list-card__article-name">Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                                                </a>
+                                                <time class="list-card__article-date">15 мая 2012</time>
+                                            </article>
+                                        </li>
+                                        <li class="list-card__item list-card__item--col-3">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/hero_banner.webp" alt="" class="list-card__article-img">
+                                                <a href="#" class="list-card__article-link">
+                                                    <h4 class="list-card__article-name">Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                                                </a>
+                                                <time class="list-card__article-date">15 мая 2012</time>
+                                            </article>
+                                        </li>
+                                        <li class="list-card__item list-card__item--col-3">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/hero_banner.webp" alt="" class="list-card__article-img">
+                                                <a href="#" class="list-card__article-link">
+                                                    <h4 class="list-card__article-name">Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                                                </a>
+                                                <time class="list-card__article-date">15 мая 2012</time>
+                                            </article>
+                                        </li>
+                                        <li class="list-card__item list-card__item--col-3">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/hero_banner.webp" alt="" class="list-card__article-img">
+                                                <a href="#" class="list-card__article-link">
+                                                    <h4 class="list-card__article-name">Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                                                </a>
+                                                <time class="list-card__article-date">15 мая 2012</time>
+                                            </article>
+                                        </li>
+                                        <li class="list-card__item list-card__item--col-3">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/hero_banner.webp" alt="" class="list-card__article-img">
+                                                <a href="#" class="list-card__article-link">
+                                                    <h4 class="list-card__article-name">Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                                                </a>
+                                                <time class="list-card__article-date">15 мая 2012</time>
+                                            </article>
+                                        </li>
+                                        <li class="list-card__item list-card__item--col-3">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/hero_banner.webp" alt="" class="list-card__article-img">
+                                                <a href="#" class="list-card__article-link">
+                                                    <h4 class="list-card__article-name">Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                                                </a>
+                                                <time class="list-card__article-date">15 мая 2012</time>
+                                            </article>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="student-section">
+                        <div class="student-section__container container">
+                            <div class="student-section__inner">
+                                <div class="student-section__header student-section__header--flex">
+                                    <h2 class="student-section__title">Наша гордость</h2>
+                                </div>
+                                <div class="student-section__content">
+                                    <ul class="news-section__card-list list-card list-card--grid">
+                                        <li class="list-card__item list-card__item--col-4">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/student_img.jpg" alt="" class="list-card__article-img list-card__article-img--student">
+                                                <a href="#" class="list-card__article-link list-card__article-link--student">
+                                                    <h4 class="list-card__article-name list-card__article-name--text-primary">Морозов Никита</h4>
+                                                </a>
+                                                <span class="list-card__article-span">Получил патент</span>
+                                            </article>
+                                        </li>
+                                        <li class="list-card__item list-card__item--col-4">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/student_img.jpg" alt="" class="list-card__article-img list-card__article-img--student">
+                                                <a href="#" class="list-card__article-link list-card__article-link--student">
+                                                    <h4 class="list-card__article-name list-card__article-name--text-primary">Морозов Никита</h4>
+                                                </a>
+                                                <span class="list-card__article-span">Получил патент</span>
+                                            </article>
+                                        </li>
+                                        <li class="list-card__item list-card__item--col-4">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/student_img.jpg" alt="" class="list-card__article-img list-card__article-img--student">
+                                                <a href="#" class="list-card__article-link list-card__article-link--student">
+                                                    <h4 class="list-card__article-name list-card__article-name--text-primary">Морозов Никита</h4>
+                                                </a>
+                                                <span class="list-card__article-span">Получил патент</span>
+                                            </article>
+                                        </li>
+                                        <li class="list-card__item list-card__item--col-4">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/student_img.jpg" alt="" class="list-card__article-img list-card__article-img--student">
+                                                <a href="#" class="list-card__article-link list-card__article-link--student">
+                                                    <h4 class="list-card__article-name list-card__article-name--text-primary">Морозов Никита</h4>
+                                                </a>
+                                                <span class="list-card__article-span">Получил патент</span>
+                                            </article>
+                                        </li>
+                                        <li class="list-card__item list-card__item--col-4">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/student_img.jpg" alt="" class="list-card__article-img list-card__article-img--student">
+                                                <a href="#" class="list-card__article-link list-card__article-link--student">
+                                                    <h4 class="list-card__article-name list-card__article-name--text-primary">Морозов Никита</h4>
+                                                </a>
+                                                <span class="list-card__article-span">Получил патент</span>
+                                            </article>
+                                        </li>
+                                        <li class="list-card__item list-card__item--col-4">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/student_img.jpg" alt="" class="list-card__article-img list-card__article-img--student">
+                                                <a href="#" class="list-card__article-link list-card__article-link--student">
+                                                    <h4 class="list-card__article-name list-card__article-name--text-primary">Морозов Никита</h4>
+                                                </a>
+                                                <span class="list-card__article-span">Получил патент</span>
+                                            </article>
+                                        </li>
+                                        <li class="list-card__item list-card__item--col-4">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/student_img.jpg" alt="" class="list-card__article-img list-card__article-img--student">
+                                                <a href="#" class="list-card__article-link list-card__article-link--student">
+                                                    <h4 class="list-card__article-name list-card__article-name--text-primary">Морозов Никита</h4>
+                                                </a>
+                                                <span class="list-card__article-span">Получил патент</span>
+                                            </article>
+                                        </li>
+                                        <li class="list-card__item list-card__item--col-4">
+                                            <article class="list-card__article">
+                                                <img src="/assets/images/student_img.jpg" alt="" class="list-card__article-img list-card__article-img--student">
+                                                <a href="#" class="list-card__article-link list-card__article-link--student">
+                                                    <h4 class="list-card__article-name list-card__article-name--text-primary">Морозов Никита</h4>
+                                                </a>
+                                                <span class="list-card__article-span">Получил патент</span>
+                                            </article>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="offers-section">
+                        <div class="offers-section__container container">
+                            <div class="offers-section__inner" style="background-image: url('/assets/images/offset_bg.png');">
+                                <div class="offers-section__content">
+                                    <h3 class="offers-section__title offers-section__title--text-white">Есть предложения по организации учебного процесса или знаете, как сделать школу лучше?</h3>
+                                    <button data-hystmodal="#feedbackModal" class="offers-section__button button button--primary">Сообщить о проблеме</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="priority-section">
+                        <div class="priority-section__container container">
+                            <div class="priority-section__inner">
+                                <div class="priority-section__header">
+                                    <h2 class="priority-section__title">Наши приоритеты</h2>
+                                </div>
+                                <div class="priority-section__content">
+                                    <ul class="priority-section__list priority-section__list--grid full-card">
+                                        <li class="full-card__item full-card__item--col-4">
+                                            <a href="#" class="full-card__link">
+                                                <article class="full-card__article" style="background-color: rgb(26, 26, 142);">
+                                                    <div class="full-card__article-content">
+                                                        <span class="full-card__article-span">Национальные проекты россии</span>
+                                                        <h3 class="full-card__article-title">Современная школа</h3>
+                                                    </div>
+                                                </article>
+                                            </a>
+                                        </li>
+                                        <li class="full-card__item full-card__item--col-4">
+                                            <a href="#" class="full-card__link">
+                                                <article class="full-card__article" style="background-color: rgb(26, 26, 142);">
+                                                    <div class="full-card__article-content">
+                                                        <span class="full-card__article-span">Национальные проекты россии</span>
+                                                        <h3 class="full-card__article-title">Образование</h3>
+                                                    </div>
+                                                </article>
+                                            </a>
+                                        </li>
+                                        <li class="full-card__item full-card__item--col-4">
+                                            <a href="#" class="full-card__link">
+                                                <article class="full-card__article" style="background-color: rgb(26, 26, 142);">
+                                                    <div class="full-card__article-content">
+                                                        <span class="full-card__article-span">Национальные проекты россии</span>
+                                                        <h3 class="full-card__article-title">Молодежь россии</h3>
+                                                    </div>
+                                                </article>
+                                            </a>
+                                        </li>
+                                        <li class="full-card__item full-card__item--col-4">
+                                            <a href="#" class="full-card__link">
+                                                <article class="full-card__article" style="background-color: rgb(26, 26, 142);">
+                                                    <div class="full-card__article-content">
+                                                        <span class="full-card__article-span">Национальные проекты россии</span>
+                                                        <h3 class="full-card__article-title">Цифровая экономика</h3>
+                                                    </div>
+                                                </article>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <!-- end main -->
+        <!-- start footer -->
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__inner">
+                    <div class="footer__top footer__top--grid">
+                        <div class="footer__left footer__left--col-3">
+                            <a href="/index.html" class="footer__logo logo-brand">
+                                <span class="logo-brand__title">МОУ СШ №85</span>
+                            </a>
+                        </div>
+                        <div class="footer__center footer__center--col-3">
+                            <ul class="footer__navigation">
+                                <li class="footer__navigation-item">
+                                    <a href="#" class="footer__navigation-link">О школе</a>
+                                </li>
+                                <li class="footer__navigation-item">
+                                    <a href="#" class="footer__navigation-link">Документы</a>
+                                </li>
+                                <li class="footer__navigation-item">
+                                    <a href="#" class="footer__navigation-link">Педагогический состав</a>
+                                </li>
+                                <li class="footer__navigation-item">
+                                    <a href="#" class="footer__navigation-link">Школьная жизнь</a>
+                                </li>
+                                <li class="footer__navigation-item">
+                                    <a href="#" class="footer__navigation-link">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__right footer__right--col-3">
+                            <ul class="footer__contact">
+                                <li class="footer__contact-item">
+                                    <a href="mailto:school85@volgadmin.ru" class="footer__contact-link footer__contact-link--mail">school85@volgadmin.ru</a>
+                                </li>
+                                <li class="footer__contact-item">
+                                    <a href="tel:+78442786426" class="footer__contact-link footer__contact-link--phone">8 (8442) 78-64-26</a>
+                                </li>
+                                <li class="footer__contact-item">
+                                    <a target="_blank" href="https://vk.com/public215707225?ysclid=lhkzs00hz4725287127" class="footer__contact-link footer__contact-link--social">мы Вконтакте</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__bottom footer__bottom--flex">
+                        <p class="footer__copyright"> © Все права защищены </p>
+                        <p class="footer__development">Разработано <span class="footer__development-span">Третьяковым Алексеем</span></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </div> 
+    <div class="feedback-modal hystmodal" id="feedbackModal" aria-hidden="true">
+        <div class="feedback-modal__wrapper hystmodal__wrap">
+            <div class="feedback-modal__content hystmodal__window" role="dialog" aria-modal="true">
+                <button data-hystclose class="feedback-modal__close">
+                    <i class='bx bx-x'></i>
+                </button>
+                <form action="" method="post" class="feedback-modal__form">
+                    <div class="feedback-modal__form-group">
+                        <div class="feedback-modal__form-item">
+                            <label for="" class="feedback-modal__form-label">Введите фамилию</label>
+                            <input type="text" name="first_name" class="feedback-modal__form-input" placeholder="Иванов">
+                        </div>
+                        <div class="feedback-modal__form-item">
+                            <label for="" class="feedback-modal__form-label">Введите имя</label>
+                            <input type="text" name="last_name" class="feedback-modal__form-input" placeholder="Дмитрий">
+                        </div>
+                    </div>
+                    <div class="feedback-modal__form-item">
+                        <label for="" class="feedback-modal__form-label">Введите текст обращения</label>
+                        <textarea class="feedback-modal__form-input" name="feedback_message" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="feedback-modal__form-item">
+                        <button type="submit" class="feedback-modal__form-button button button--primary">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

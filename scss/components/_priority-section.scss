@@ -1,0 +1,40 @@
+.priority-section {
+    padding: 48px 0;
+    &__container {}
+
+    // .priority-section__inner
+
+    &__inner {}
+
+    // .priority-section__header
+
+    &__header {
+        padding: 2.625rem 0;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    // .priority-section__title
+
+    &__title {
+        margin: 0;
+        padding: 0;
+        font-size: 1.875rem;
+        font-weight: 600;
+    }
+
+    // .priority-section__content
+
+    &__content {}
+
+    // .priority-section__list
+
+    &__list {}
+
+    // .priority-section__list-grid
+
+    &__list-grid {}
+}
+.container {
+}
+

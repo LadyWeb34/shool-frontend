@@ -1,0 +1,88 @@
+.student-section {
+
+    // .student-section__container
+
+    &__container {}
+
+    // .student-section__inner
+
+    &__inner {}
+
+    // .student-section__header
+
+    &__header {
+        padding: 2.625rem 0;
+        margin-bottom: 2.5rem;
+        align-items: end;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--color-separator);
+    }
+
+    // .student-section__header--flex
+
+    &__header--flex {}
+
+    // .student-section__title
+
+    &__title {
+        margin: 0;
+        padding: 0;
+        font-size: 1.875rem;
+        font-weight: 600;
+    }
+
+    // .student-section__more-link
+
+    &__more-link {}
+
+    // .student-section__content
+
+    &__content {}
+}
+.container {
+}
+.student-section--link {
+    
+}
+.list-card {
+
+    // .list-card__item
+
+    &__item {}
+
+    // .list-card__item--col-4
+
+    &__item--col-4 {}
+
+    // .list-card__article
+
+    &__article {}
+
+    // .list-card__article-img
+
+    &__article-img--student {
+        height: 20rem;
+    }
+
+    // .list-card__article-link
+
+    &__article-link {}
+
+    // .list-card__article-link--student
+
+    &__article-link--student {
+        margin: 2rem 0 0.625rem 0;
+    }
+
+    // .list-card__article-name
+
+    &__article-name {}
+
+    // .list-card__article-name--text-primary
+
+    &__article-name--text-primary {}
+
+    // .list-card__article-span
+
+    &__article-span {}
+}

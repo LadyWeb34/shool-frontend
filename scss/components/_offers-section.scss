@@ -1,0 +1,38 @@
+.offers-section {
+    padding: 48px 0;
+    &__container {}
+
+    // .offers-section__inner
+
+    &__inner {
+        padding: 2.5rem 3.125rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 0.625rem;
+        @include sm{
+            padding: 2.5rem 2rem;
+        }
+    }
+
+    // .offers-section__content
+
+    &__content {}
+
+    // .offers-section__title
+
+    &__title {
+        text-align: left;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.2;
+        max-width: 18rem;
+        @include md{
+            max-width: 100%;
+        }
+    }
+
+    // .offers-section__button
+
+    &__button {}
+}

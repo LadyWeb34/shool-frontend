@@ -1,0 +1,134 @@
+.footer {
+    padding: 3rem 0;
+    background-color: rgb(0, 10, 35);
+    width: 100%;
+    &__container {}
+
+    // .footer__inner
+
+    &__inner {}
+
+    // .footer__top
+
+    &__top {
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        padding-bottom: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    &__logo{
+        font-size: 1.75rem;
+    }
+    // .footer__left
+    
+    &__left {
+        @include md{
+            grid-column: 12 span;
+        }
+    }
+
+    // .footer__center
+
+    &__center {
+        @include md{
+            grid-column: 12 span;
+        }
+    }
+
+    // .footer__navigation
+
+    &__navigation {
+        margin: 0;
+        padding: 0;
+    }
+
+    // .footer__navigation-item
+
+    &__navigation-item {
+        &:not(:last-child){
+            margin-bottom: 1rem;
+        }
+    }
+
+    // .footer__navigation-link
+
+    &__navigation-link {
+        color: var(--color-white);
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    // .footer__right
+
+    &__right {
+        @include md{
+            grid-column: 12 span;
+        }
+    }
+
+    // .footer__right--col-3
+
+    &__right--col-3 {}
+
+    // .footer__contact
+
+    &__contact {
+        margin: 0;
+        padding: 0;
+    }
+
+    // .footer__contact-item
+
+    &__contact-item {
+        &:not(:last-child){
+            margin-bottom: 1rem;
+        }
+    }
+
+    // .footer__contact-link
+
+    &__contact-link {
+        color: rgb(172, 177, 186);
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    // .footer__contact-link--mail
+
+    &__contact-link--mail {}
+
+    // .footer__contact-link--phone
+
+    &__contact-link--phone {}
+
+    // .footer__contact-link--social
+
+    &__contact-link--social {}
+
+    // .footer__bottom
+
+    &__bottom {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    // .footer__copyright
+
+    &__copyright {
+        color: rgb(172, 177, 186);
+    }
+
+    // .footer__development
+
+    &__development {
+        color: rgb(172, 177, 186);
+    }
+
+    // .footer__development-span
+
+    &__development-span {
+        color: var(--color-white);
+    }
+}
